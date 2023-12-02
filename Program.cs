@@ -27,13 +27,4 @@
             return;
         }
     }
-
-    public static int[] StringArrayToInt(string[] input) {
-        int[] array = new int[input.Count()];
-        for(int i = 0; i < input.Count(); i++) {
-            array[i] = int.Parse(input[i]);
-        }
-
-        return array;
-    }
 }
