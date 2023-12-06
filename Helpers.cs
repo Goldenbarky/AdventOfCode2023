@@ -110,4 +110,12 @@ class Helpers {
 
         return array;
     }
+
+    public static void Print(string str) {
+        Console.WriteLine(str);
+    }
+
+    public static void Print(List<object> list) {
+        list.ForEach(x => Print(x + ", "));
+    }
 }
